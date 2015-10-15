@@ -1,0 +1,377 @@
+{
+	"item": [
+		{
+			"name": "Belt of three throwing weapons",
+			"": [
+				"Belt of three throwing weapons",
+				"Belt of three superior throwing weapons",
+				"Crude Light weapon",
+				"Light weapon",
+				"Superior Light weapon",
+				"Crude Medium weapon",
+				"Medium weapon",
+				"Superior Medium weapon",
+				"Great weapon",
+				"Superior Great weapon",
+				"Pole arm",
+				"Superior Pole arm",
+				"Stabbing weapon",
+				"Superior Stabbing weapon",
+				"Bow",
+				"Superior Bow",
+				"Crossbow",
+				"Superior Crossbow"
+			]
+		},
+		{
+			"name": "Belt of three throwing weapons",
+			"market price": "50c",
+			"restore price": "25c",
+			"toughness": "1",
+			"rule": [
+				"When you hit somebody call Stumble.",
+				"You can reuse throwing weapons."
+			],
+			"physrep": "Up to three LARP safe throwing Weapons."
+		},
+		{
+			"name": "Belt of three superior throwing weapons",
+			"market price": "100c",
+			"restore price": "50c",
+			"toughness": "1",
+			"rule": [
+				"When you hit somebody call Stumble.",
+				"You can reuse throwing weapons.",
+				"If you had this weapon at the beginning of the day you can perform a throw skill once without paying its willpower cost this day."
+			],
+			"physrep": "Up to three LARP safe throwing Weapons."
+		},
+		{
+			"name": "Crude Light weapon",
+			"market price": "100c",
+			"restore price": "50c",
+			"toughness": "1",
+			"rule": [
+				"This item is large.",
+				"Skills cost 1 WP extra to perform with this weapon."
+			],
+			"physrep": "Weapons with a length of 30 cm to 60 cm."
+		},
+		{
+			"name": "Light weapon",
+			"market price": "200c",
+			"restore price": "100c",
+			"toughness": "2",
+			"rule": [
+				"This item is large.",
+				"Skills cost 1 WP extra to perform with this weapon."
+			],
+			"physrep": "Weapons with a length of 30 cm to 60 cm."
+		},
+		{
+			"name": "Superior Light weapon",
+			"market price": "400c",
+			"restore price": "200c",
+			"toughness": "2",
+			"rule": "This item is large.",
+			"physrep": "Weapons with a length of 30 cm to 60 cm."
+		},
+		{
+			"name": "Crude Medium weapon",
+			"market price": "250c",
+			"restore price": "125c",
+			"toughness": "1",
+			"rule": "This item is large.",
+			"physrep": "Weapons with a length of 60 cm to 110 cm."
+		},
+		{
+			"name": "Medium weapon",
+			"market price": "300c",
+			"restore price": "150c",
+			"toughness": "2",
+			"rule": "This item is large.",
+			"physrep": "Weapons with a length of 60 cm to 110 cm."
+		},
+		{
+			"name": "Superior Medium weapon",
+			"market price": "600c",
+			"restore price": "300c",
+			"toughness": "3",
+			"rule": [
+				"This item is large.",
+				"If you had this weapon at the beginning of the day you can perform a strike skill once without paying its willpower cost this day."
+			],
+			"physrep": "Weapons with a length of 60 cm to 110 cm."
+		},
+		{
+			"name": "Great weapon",
+			"market price": "400c",
+			"restore price": "200c",
+			"toughness": "2",
+			"rule": [
+				"This item is large.",
+				"If you had this weapon at the beginning of the day you can perform a strike skill once without paying its willpower cost this day.",
+				"Once per day call stumble on a person to close to hit with this weapon."
+			],
+			"physrep": "Two-handed weapons with a length of 110 cm to 150 cm."
+		},
+		{
+			"name": "Superior Great weapon",
+			"market price": "800c",
+			"restore price": "400c",
+			"toughness": "3",
+			"rule": [
+				"This item is large.",
+				"If you had this weapon at the beginning of the day you can perform a strike skill twice without paying its willpower cost this day.",
+				"Twice per day call stumble on a person to close to hit with this weapon."
+			],
+			"physrep": "Two-handed weapons with a length of 110 cm to 150 cm."
+		},
+		{
+			"name": "Pole Weapon",
+			"market price": "400c",
+			"restore price": "200c",
+			"toughness": "2",
+			"rule": "This item is large.",
+			"physrep": "Staff-like weapons with a length of 150 cm to 215 cm."
+		},
+		{
+			"name": "Superior Pole Weapon",
+			"market price": "800c",
+			"restore price": "400c",
+			"toughness": "3",
+			"rule": [
+				"This item is large.",
+				"If you had this weapon at the beginning of the day you can perform a strike skill twice without paying its willpower cost this day.",
+				"Once per day call stumble on a person to close to hit with this weapon."
+			],
+			"physrep": "Staff-like weapons with a length of 150 cm to 215 cm."
+		},
+		{
+			"name": "Stabbing weapon",
+			"market price": "400c",
+			"restore price": "200c",
+			"toughness": "1",
+			"rule": "This item is large.",
+			"physrep": "Two-handed weapons with a length of 110 cm to 150 cm. LARP-safe to stab with."
+		},
+		{
+			"name": "Superior Stabbing weapon",
+			"market price": "800c",
+			"restore price": "400c",
+			"toughness": "2",
+			"rule": [
+				"This item is large.",
+				"If you had this weapon at the beginning of the day you can perform a strike skill once without paying its willpower cost this day."
+			],
+			"physrep": "Two-handed weapons with a length of 110 cm to 150 cm. LARP-safe to stab with."
+		},
+		{
+			"name": "Bow",
+			"market price": "60c",
+			"restore price": "30c",
+			"rule": "This item is large.",
+			"physrep": "Larp-safe bow, quiver and arrows."
+		},
+		{
+			"name": "Superior Bow",
+			"market price": "120c",
+			"restore price": "60c",
+			"rule": [
+				"This item is large.",
+				"If you had this weapon at the beginning of the day you can perform a shot skill once without paying its willpower cost this day."
+			],
+			"physrep": "Larp-safe bow, quiver and arrows."
+		},
+		{
+			"name": "Crossbow",
+			"market price": "120c",
+			"restore price": "60c",
+			"rule": "This item is large.",
+			"physrep": "Larp-safe crossbow, quiver and arrows."
+		},
+		{
+			"name": "Superior Crossbow",
+			"market price": "240c",
+			"restore price": "120c",
+			"rule": [
+				"This item is large.",
+				"If you had this weapon at the beginning of the day you can perform a shot skill once without paying its willpower cost this day."
+			],
+			"physrep": "Larp-safe crossbow, quiver and arrows."
+		}
+	],
+	"skill": [
+		{
+			"name": "Focused Strike Level 1",
+			"points": 4,
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent and spend 2 WP you can call Hit 2"
+			],
+			"details": "This skill heightens the chance that your blow will injure the enemy.",
+			"level": "Upgrade to Level 2 by training 4 points"
+		},
+		{
+			"name": "Focused Strike Level 2",
+			"points": 8,
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent and spend 2 WP you can call Hit 3"
+			],
+			"details": "You might even be able to disable an armoured enemy with a single blow.",
+			"level": "Upgrade to Level 3 by training 4 points"
+		},
+		{
+			"name": "Focused Strike Level 3",
+			"points": 12,
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent and spend 2 WP you can call Hit 4"
+			],
+			"details": "Precision and superior force enable you to drop most armoured combatants with ease."
+		},
+		{
+			"name": "Breaking Strike level 1",
+			"points": 4,
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you intentionally strike an opponent's weapon or shield and spend 2 WP you can call Break 1 but your weapon also receives this effect."
+			],
+			"details": "Breaking shields or bending enemy weapons is a handy skill. It reduces the value of your loot, but at least you survive the combat. It is extremely potent against most shields or bad quality weapons.",
+			"level": "Upgrade to Level 2 by training 6 points"
+		},
+		{
+			"name": "Breaking Strike level 2",
+			"points": 10,
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you intentionally strike an opponent's weapon or shield and spend 2 WP you can call Break 1 or Break 2 but your weapon also receives this effect."
+			],
+			"details": "You will be able to break the toughest of shields and most weapons.",
+			"level": "Upgrade to Level 3 by training 6 points"
+		},
+		{
+			"name": "Breaking Strike level 3",
+			"points": 16,
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you intentionally strike an opponent's weapon or shield and spend 1 WP you can call Break 1 or Break 2 but your weapon also receives this effect."
+			],
+			"details": "Breaking stuff doesn't tire you as much as it used to do."
+		},
+		{
+			"name": "Shoving Strike Level 1",
+			"points": 4,
+			"rule": [
+				"Use a large melee weapon for this skill.",
+				"If you grab the tip of your weapon with your off-hand, move the weapon towards your opponent and spend 1WP you can call Stumble."
+			],
+			"details": "Especially useful against multiple enemies or enemies with shorter weapons than you."
+		},
+		{
+			"name": "Tackling strike Level 1",
+			"point": "6",
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent on a leg and spend 2WP you can call Hit 1 Fall."
+			],
+			"details": "Hitting knees or sweeping feet away might cause your enemy to drop to the ground.",
+			"level": "Upgrade to Level 2 by training 4 points"
+		},
+		{
+			"name": "Tackling strike Level 2",
+			"point": "10",
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent on a leg and spend 1WP you can call Hit 1 Fall."
+			],
+			"details": "You have gotten much more proficient hitting low."
+		},
+		{
+			"name": "Disarming strike Level 1",
+			"point": "6",
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent on the arm where they hold a weapon twice and spend 2WP you can call Hit 1 Drop Weapon."
+			],
+			"details": "After hammering your opponent's weapon arm, a clumsy and tired fighter will surely drop it.",
+			"level": "Upgrade to Level 2 by training 4 points"
+		},
+		{
+			"name": "Disarming strike Level 2",
+			"point": "10",
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent on the arm where they hold a weapon and spend 2WP you can call Hit 1 Drop Weapon."
+			],
+			"details": "You have gotten much more proficient at disarming somebody.",
+			"level": "Upgrade to Level 2 by training 5 points"
+		},
+		{
+			"name": "Disarming strike Level 3",
+			"point": "15",
+			"rule": [
+				"Use a large melee weapon for this skill",
+				"If you hit an opponent on the arm where they hold a weapon and spend 1WP you can call Hit 1 Drop Weapon."
+			],
+			"details": "Disarming somebody doesn't tire you as much as it used to do."
+		},
+		{
+			"name": "Damaging Throw",
+			"points": 4,
+			"rule": [
+				"Use a throwing weapon for this skill",
+				"If you hit an opponent and spend 1 WP you can call Hit 1"
+			],
+			"details": "To actually hurt somebody with throwing knifes or other thrown weapons requires practice."
+		},
+		{
+			"name": "Focused Shot Level 1",
+			"points": 4,
+			"rule": [
+				"Use a bow or crossbow for this skill",
+				"If you hit an opponent and spend 2 WP you can call Hit 2"
+			],
+			"details": "This skill heightens the chance that your arrow will injure the enemy.",
+			"level": "Upgrade to Level 2 by training 4 points"
+		},
+		{
+			"name": "Focused Shot Level 2",
+			"points": 8,
+			"rule": [
+				"Use a bow or crossbow for this skill",
+				"If you hit an opponent and spend 2 WP you can call Hit 3"
+			],
+			"details": "You might even be able to disable an armoured enemy with a single shot.",
+			"level": "Upgrade to Level 3 by training 4 points"
+		},
+		{
+			"name": "Focused Shot Level 3",
+			"points": 12,
+			"rule": [
+				"Use a bow or crossbow for this skill",
+				"If you hit an opponent and spend 2 WP you can call Hit 4"
+			],
+			"details": "Superior aim enables you to drop most armoured combatants with ease."
+		},
+		{
+			"name": "Pinning Shot",
+			"points": 3,
+			"rule": [
+				"Use a bow or crossbow for this skill",
+				"If you hit an opponent on a leg and spend 1 WP you can call Hit 1 Fall"
+			],
+			"details": "Penetrating the leg of your enemy will stop him or her from running towards you, at least for a while."
+		},
+		{
+			"name": "Disarming Shot",
+			"points": 3,
+			"rule": [
+				"Use a bow or crossbow for this skill",
+				"If you hit an opponent on an arm holding an item and spend 1 WP you can call Hit 1 Drop item"
+			],
+			"details": "Arrows usually cause enough pain and fright to temporarily disable limbs, even if the wound isn't all that lethal."
+		}
+	]
+}

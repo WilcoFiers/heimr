@@ -1,0 +1,450 @@
+{
+	"skill": [
+		{
+			"name": "Crafter lvl 1",
+			"points": 5,
+			"rule": [
+				"Spend 1 resource to craft items worth up to 40 copper.",
+				"When crafting items spend half the items' worth in material cost.",
+				"You require a pattern for any item you craft.",
+				"You can sell items you craft for 61% of the market price during downtime."
+			],
+			"details": "You are a journeyman level craftsman.",
+			"level": "Upgrade to Level 2 by training 5 points."
+		},
+		{
+			"name": "Crafter lvl 2",
+			"points": 10,
+			"rule": [
+				"Spend 1 resource to craft items worth up to 50 copper.",
+				"When crafting items spend half the items' worth in material cost.",
+				"You require a pattern for any item you craft.",
+				"You can sell items you craft for 62% of the market price during downtime.",
+				"Instead of 400, you spend 500 copper per month on your standard of living."
+			],
+			"details": "You are an Expert level craftsman.",
+			"level": "Upgrade to Level 3 by training 6 points."
+		},
+		{
+			"name": "Crafter lvl 3",
+			"points": 16,
+			"rule": [
+				"Spend 1 resource to craft items worth up to 60 copper.",
+				"When crafting items spend half the items' worth in material cost.",
+				"You require a pattern for any item you craft.",
+				"You can sell items you craft for 63% of the market price during downtime.",
+				"Instead of 400, you spend 600 copper per month on your standard of living."
+			],
+			"details": "You are a Master level craftsman."
+		},
+		{
+			"name": "Artesian Crafter",
+			"points": 5,
+			"rule": "The price that you can sell items that you craft for is heightened by 1%.",
+			"details": "The items that you craft are especially innovative or aesthetically pleasing. This makes them highly valued by certain buyers."
+		},
+		{
+			"name": "Repairman",
+			"points": 1,
+			"rule": [
+				"To repair an item, spend half the restore price and 1 resource per 20 copper of the amount you spend. There is a 70% chance the item is restored. If not, you can try again.",
+				"You require the pattern of the item you are repairing.",
+				"You can buy this skill multiple times. Every time you buy it again the chance of success is increased by 5%."
+			],
+			"details": "You can attempt to repair broken items."
+		},
+		{
+			"name": "Jury rigging",
+			"points": 4,
+			"rule": [
+				"You can jury rig items you have a pattern for.",
+				"Spend 5 minutes and 5% of the market price of the item worth of jury rigging material.",
+				"After this a weapon or shield can be used again until its owners next short rest. The first time its toughness is lowered by 1 until it is repaired.",
+				"After this an armour can be used again until its owners next short rest. Every time it provides 1 less HP until it is repaired."
+			],
+			"details": "You can take most broken items and make them work for at least one more fight."
+		},
+		{
+			"name": "Salvaging",
+			"points": 1,
+			"rule": [
+				"You can salvage broken items you have a pattern for.",
+				"Spend 5 minutes on a single broken item. The broken item is removed from the game and you gain 25% of it's market price worth of jury rigging material."
+			],
+			"details": "Repairing them and selling them might net you more money, but you need the materials now."
+		},
+		{
+			"name": "Custom Crafter",
+			"points": null,
+			"rule": [
+				"Spend ?? time designing the custom item with the client.",
+				"You require a pattern for any item you craft.",
+				"In the next downtime you can craft an item with a custom modifier if you pay the extra material cost specified. This modifier only has effect if the item is used by the specific client."
+			],
+			"details": "You are gifted at making items designed for a specific person. Based on his or her measurements, wishes and tastes."
+		},
+		{
+			"name": "Street Performer",
+			"points": 3,
+			"rule": [
+				"Spend 1 WP for every 5 minutes of your performance, except for the first 15 minutes each day.",
+				"Spend at least 15 minutes performing: For every 5 minutes of your performance, one member of your audience (you choose) regains 1 WP."
+			],
+			"details": "Performance may include juggling, storytelling, playing an instrument, singing, theatre etc."
+		},
+		{
+			"name": "Prostitute",
+			"points": 3,
+			"rule": [
+				"You can use this skill 3 times a day without spending willpower.",
+				"Spend 15 minutes in private with another person, providing sexual favours, spend 1 WP: They regain 1WP"
+			],
+			"details": "The oldest profession. Normal sex doesn't give back willpower, but you are specially trained in the art of pleasing your clients."
+		},
+		{
+			"name": "Health Specialist",
+			"points": 6,
+			"rule": [
+				"You can use this skill 5 times a day without spending willpower.",
+				"Spend 15 minutes attending to a person's healthcare, spend 1 WP: They regain 1WP."
+			],
+			"details": "Healthcare may include massages, skin care, barbering, piss-propheting, make-up, etc."
+		},
+		{
+			"name": "Weeper",
+			"points": 4,
+			"rule": [
+				"Spend 1 WP for every 5 minutes of mourning at somebodies funeral, except for the first 25 minutes each day.",
+				"Spend at least 10 minutes mourning: For every 5 minutes, one member of the funeral attendees (you choose) regains 1 WP."
+			],
+			"details": "Professional weepers are skilled at making the dead person look more important than he or she was and are good at consoling random strangers about death."
+		},
+		{
+			"name": "Merchant",
+			"points": 5,
+			"rule": [
+				"Every month you can buy or sell up to 1000 copper worth of items for 85% or 65% of their price instead of their market price, respectively.",
+				"Instead of 400, you spend 500 copper per month on your standard of living.",
+				"You can buy this skill multiple times. Each time you do so either your buying or selling price shifts 1% (alternately, you choose which first), you can buy or sell 1000 copper worth of items extra and your standard of living is increased by 100 copper per month."
+			],
+			"details": "You know your way around the markets, have a lot of trading contacts and know how to barter well."
+		},
+		{
+			"name": "Barter",
+			"points": 1,
+			"rule": [
+				"Every month you can exchange 100 copper worth of items for 90% worth of other items.",
+				"You can buy this skill multiple times."
+			],
+			"details": "You often forgo with money altogether, getting exactly what you need."
+		},
+		{
+			"name": "Professional guardian lvl 1",
+			"requires": "You need a heavy armour (or better) and a weapon for this skill to work.",
+			"points": 2,
+			"rule": "You count as three persons when determining how many persons protect something in downtime.",
+			"details": "You know how to organize your patrol patterns and look the part so enemies will try a softer target.",
+			"level": "Upgrade to Level 2 by training 2 points"
+		},
+		{
+			"name": "Professional guardian lvl 2",
+			"requires": "You need a massive armour and a weapon for this skill to work.",
+			"points": 4,
+			"rule": "You count as five persons when determining how many persons protect something in downtime.",
+			"details": "The local scum knows not to mess with whatever you are protecting."
+		},
+		{
+			"name": "Caravan safety",
+			"points": 5,
+			"rule": "The chance a caravan you travel with is lost is 20% instead of 30%.",
+			"details": "You know how to travel safer across the land. Maybe you have some contacts with the locals or you might know a safer route.",
+			"level": "Upgrade to Level 2 by training 5 points."
+		},
+		{
+			"name": "Caravan safety lvl 2",
+			"points": 10,
+			"rule": "The chance a caravan you travel with is lost is 10% instead of 30%.",
+			"details": "You know how to travel safer across even the most dangerous area's. You might even have a positive relationships with the local bandits."
+		}
+	],
+	"item": [
+		{
+			"name": "Jury rigging material",
+			"market price": "Any amount",
+			"rule": [
+				"This item can be used to temporarily repair broken items with the Jury rigging skill.",
+				"Write the worth of the material you have on you on this card in copper."
+			],
+			"physrep": "Scraps of leather, small pieces of wood or metal, rope, etc."
+		},
+		{
+			"name": "Membership of the local weaponsmithing guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Membership of the local Carpentry guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Membership of the local Leathercrafters guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Membership of the local armoursmith guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Membership of the local Brewery guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Membership of the local Chocolatery guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Membership of the local Cultivation guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Membership of the local Anointing guild",
+			"market price": "200c",
+			"rule": [
+				"You can buy all patterns from this category at half price.",
+				"You need a home condition to use this item. If your home location chances you lose this item."
+			]
+		},
+		{
+			"name": "Share <company name> lvl x",
+			"market price": "Varies but usually around the level of this item times 250; contact a GM if you want to buy or sell during downtime.",
+			"rule": [
+				"You gain 10 copper for every level this item has per month.",
+				"Every month there is a chance that all the items sharing a similar name gain or lose one or more levels.",
+				"Level might also be changed by player interaction or story outcome.",
+				"All the share items of a single company are all the same level.",
+				"Depending on the amount of shareholders you might have a say in the company its policy."
+			],
+			"details": "You are co-proprietor of a business. You receive a monthly dividend from this business depending on how well the business is doing."
+		},
+		{
+			"name": "Mug of Ale",
+			"market price": "2c",
+			"rule": "Consume 3 mugs of ale during your indulgence, if you do this you regain 2 WP from the indulgence instead of 1.",
+			"physrep": "A drinkable liquid"
+		},
+		{
+			"name": "A glass of Liquor",
+			"market price": "6c",
+			"rule": "Consume this item during your indulgence, if you do this you regain 2 WP from the indulgence instead of 1.",
+			"physrep": "A drinkable liquid",
+			"details": "A distilled beverage with a high alcohol percentage"
+		},
+		{
+			"name": "A portion of Tobacco",
+			"market price": "6c",
+			"rule": "Consume this item during your indulgence, if you do this you regain 2 WP from the indulgence instead of 1.",
+			"physrep": "A substance to be smoked in a pipe"
+		},
+		{
+			"name": "Hookah",
+			"market price": "100c",
+			"rule": [
+				"If you spend your indulgence with this item and you use three portions of tobacco you gain 3 WP from the indulgence instead of 2.",
+				"Indulging like this takes 15 minutes instead of 5."
+			],
+			"physrep": "A hookah"
+		},
+		{
+			"name": "Sweets",
+			"market price": "6c",
+			"rule": "Consume this item during your indulgence, if you do this you regain 2 WP from the indulgence instead of 1.",
+			"physrep": "A solid medieval looking snack. For example fritters, crêpes, waffles, wafers or very small amounts of chocolate."
+		},
+		{
+			"name": "Drinkable chocolate",
+			"market price": "18c",
+			"rule": [
+				"Consume this item during your indulgence, if you do this you regain 2 WP from the indulgence instead of 1.",
+				"If you slowly warm the chocolate for 20 minutes before consuming during an indulgence you regain an additional WP."
+			],
+			"physrep": "liquid chocolate."
+		},
+		{
+			"name": "Cigar",
+			"market price": "20c",
+			"rule": "Consume this item during your indulgence, if you do this you regain 3 WP from the indulgence instead of 1.",
+			"physrep": "A cigar"
+		},
+		{
+			"name": "Hallucinogen",
+			"market price": "15c",
+			"rule": "Consume this item during your indulgence, if you do this you regain 3 WP from the indulgence instead of 1 and are dazed and hallucinate for an hour.",
+			"physrep": "An physrep that looks like a substance that would cause pleasant hallucinations. (for example: Champignons)"
+		},
+		{
+			"name": "Opiate",
+			"market price": "10",
+			"rule": "Drink this, then wait 2 minutes. For the next hour after this, you are Dazed but you do not lose WP from the stitching and bandaging skill being used on you.",
+			"physrep": "A white drinkable liquid"
+		},
+		{
+			"name": "Primordial touched Yarrow",
+			"market price": "100c",
+			"rule": [
+				"If you consume this after 5 seconds you are no longer dazed or weakened by effects that you had at the moment of consuming this for a full hour.",
+				"After the hour has past you are dazed and weakened for a full hour."
+			],
+			"physrep": "A white and yellow plant"
+		},
+		{
+			"name": "Cart",
+			"market price": "100c",
+			"rule": [
+				"You can take an extra 800 items from or to a location (like an event). A large item takes the place of 8 items.",
+				"There is a chance of 30% during every trip that you will lose all carts and all they transport.",
+				"A person per cart that has both a medium armour (or better) and a weapon and protects the charts during its entire trip lowers the chance it is lost by one fifth (cumulative)."
+			],
+			"details": "Deterring attackers is a question of how scary you can look. But if you get attacked the attackers will make sure they have the upper hand... in that case running and leaving the loot is the best option."
+		},
+		{
+			"name": "Caravan guard",
+			"market price": "15c",
+			"rule": "You hire a person with a medium armour and a weapon to protect your charts during a trip.",
+			"details": "It is relatively easy to find people that travel in the same direction and are willing to earn a few extra coppers."
+		}
+	],
+	"condition": [
+		{
+			"name": "<Choose a location> Home",
+			"rule": [
+				"You can gain this condition by spending 60 resources or for free during character creation. If you gain this condition choose a location for your home.",
+				"At the beginning of every event you receive one free rumour and a list of items that are expensive or cheap in your location."
+			],
+			"details": "You are bound to a single location that you return to in downtime."
+		},
+		{
+			"name": "Higher salary lvl 1",
+			"rule": [
+				"If you have 12 points worth of non-dormant skills or conditions in a single domain this condition is free.",
+				"Instead of 4, you get 5 copper per resource spend on your profession.",
+				"Instead of 400, you spend 500 copper per month on your standard of living.",
+				"You are free to lose this condition at any time: If you do; you will have 1 less maximum WP for a full year."
+			],
+			"details": "Instead of unskilled labour you have a profession that makes use of your skills and pays better. However your character is also used to a higher standard of living and so your upkeep is also higher."
+		},
+		{
+			"name": "Higher salary lvl 2",
+			"rule": [
+				"If you have 16 points worth of non-dormant skills or conditions in a single domain this condition is free.",
+				"Instead of 4, you get 6 copper per resource spend on your profession.",
+				"Instead of 400, you spend 600 copper per month on your standard of living.",
+				"You are free to lower the level of this condition by 1 at any time: If you do; you will have 1 less maximum WP for a full year."
+			],
+			"details": "Your skills are among the highest with starters in your profession. You are being payed reasonably well but your character is also used to a fairly high standard of living."
+		},
+		{
+			"name": "Higher salary lvl 3",
+			"rule": [
+				"If you have 22 points worth of non-dormant skills or conditions in a single domain this condition is free.",
+				"Instead of 4, you get 7 copper per resource spend on your profession.",
+				"Instead of 400, you spend 700 copper per month on your standard of living.",
+				"You are free to lower the level of this condition by 1 at any time: If you do; you will have 1 less maximum WP for a full year."
+			],
+			"details": "You probably have a management position within a small family company or guild. You are well off but probably have a hard time keeping yourself and your equipment in top shape while making money for the company."
+		},
+		{
+			"name": "Lower cost of living",
+			"rule": [
+				"You can gain this condition by spending 20 resources.",
+				"You can gain this condition multiple times. You pay 1 extra resource per time you already have this condition.",
+				"You spend 1% less copper per month on your standard of living."
+			],
+			"details": "For whatever reason (good investment skills, bargain hunting, less regard for luxury goods, self repair, etc.) you spend less on your standard of living than others."
+		},
+		{
+			"name": "Higher cost of living",
+			"rule": [
+				"You can gain this condition by spending 10 resources.",
+				"You spend 5% more copper per month on your standard of living.",
+				"You have 1 more maximum WP.",
+				"You are free to lose this condition at any time: If you do; you will have 1 less maximum WP for a full year."
+			],
+			"details": "You are living a bit more luxurious than your peers. You are probably burning the wealth gained from a lucky investment or a shady one time income."
+		},
+		{
+			"name": "Higher cost of living lvl 2",
+			"rule": [
+				"You can gain this condition by spending 30 resources.",
+				"You spend 10% more copper per month on your standard of living.",
+				"You have 1 more maximum WP.",
+				"You are free to lower the level of this condition by 1 at any time: If you do; you will have 1 less maximum WP for a full year."
+			],
+			"details": "You are living the good live; maybe above your means. Have you secured a steady income next to or even instead of a good salary?"
+		},
+		{
+			"name": "Higher cost of living lvl 3",
+			"rule": [
+				"You can gain this condition by spending 100 resources.",
+				"You spend 35% more copper per month on your standard of living.",
+				"You have 1 more maximum WP.",
+				"You are free to lower the level of this condition by 1 at any time: If you do; you will have 1 less maximum WP for a full year."
+			],
+			"details": "The world is divided in the rich and the poor; and the rich will get richer and the poor will keep getting poorer. This is the tipping point; either you will burn up really fast or you will soar ever higher."
+		},
+		{
+			"name": "Loan lvl:",
+			"rule": [
+				"When you gain this condition you receive 50 copper for every lvl of this condition.",
+				"You lose 1 copper per month for every lvl of this condition.",
+				"You can lose this condition by paying 50 copper for every lvl of this condition.",
+				"If you do not lose this condition in a year, people might pay you a visit to get their money in the form of items, labour or other things of value."
+			],
+			"details": "You have a loan with a respectable person in your home community that trusts you to pay him back."
+		},
+		{
+			"name": "Investment",
+			"rule": [
+				"You can gain this condition by spending 2000 copper. You can only do this once per year.",
+				"Every month there is a change of 10% that you will lose this condition.",
+				"Every month there is a change of 20% that you will gain the share lvl x item and lose this condition. x is random and ranged from 15 to 25."
+			],
+			"details": "You have found a person with an good idea. The idea might work; or it might not. Your money is in their hands now. But if you have enough money to burn and an understanding of the law of large numbers..."
+		},
+		{
+			"name": "Shady Investment",
+			"rule": [
+				"You can gain this condition by spending 2000 copper.",
+				"Every month there is a change of 40% that you will lose this condition.",
+				"Every month there is a change of 40% that you will gain the share lvl x item and lose this condition. x is random and ranged from 15 to 25."
+			],
+			"details": "You have found a person with an get rich quick scheme, a business plan and he wants to cut you in... he just needs some money to get started."
+		}
+	]
+}

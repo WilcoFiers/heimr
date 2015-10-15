@@ -1,0 +1,178 @@
+{
+	"condition": [
+		{
+			"name": "The Spark",
+			"rule": [
+				"You have the ability to power automata.",
+				"Your somatic component provides 10 power.",
+				"Your verbal component provides 10 power.",
+				"You can use verbal, somatic, hitpoint, willpower components to power automata.",
+				"You can gain this condition during character creation for 1 skillpoint."
+			],
+			"details": "Some people are born with an innate ability to affect the primordial flow around them."
+		},
+		{
+			"name": "Power Reserve",
+			"requires": "The Spark condition",
+			"rule": [
+				"You have access to a special \"Power Reserve\" component. This component provides 200 power and requires just one second of concentration to use.",
+				"You can have this condition multiple times. Each time gives you access to another use of the power reserve component during the same activation.",
+				"You can gain this condition during character creation for 5 skillpoints."
+			],
+			"details": "Some people have an innate gift for Primordial magic that allows them to use much more powerful automata than they normally would be able to."
+		}
+	],
+	"skill": [
+		{
+			"name": "Automata Crafting",
+			"points": 4,
+			"requires": "The Spark condition",
+			"rule": [
+				"You have the ability to craft new automata. You will gain in character documents detailing this process.",
+				"Your somatic component provides 200 power.",
+				"Your verbal component provides 200 power.",
+				"You can use material and focus components to power automata."
+			],
+			"details": "After learning how to power automata, the second thing an apprentice mage learns is how to craft his own automata."
+		},
+		{
+			"name": "Element Focus",
+			"points": 5,
+			"requires": "Automata Crafting skill",
+			"rule": [
+				"Choose a Particle Type other than Divine. Automata that are Dominant of that type cost 500 power less to activate.",
+				"You can gain this skill multiple times. Each time you must select a different Particle Type."
+			],
+			"details": "There are mages that focus on mastering a single element instead of all at once. They become masters of that element but may not have much control over the other elements."
+		},
+		{
+			"name": "Component Crafting",
+			"points": 1,
+			"requires": "Automata Crafting skill",
+			"rule": "You can find basic material components using a bit of matter and some energy. Spend 10 minutes crafting a component to get one basic material component.",
+			"details": "With a bit of time and concentration you can turn any ordinary thing into something you can use to power your automata."
+		}
+	],
+	"item": [
+		{
+			"name": "Automata scroll",
+			"cost": "1c",
+			"rule": [
+				"Can hold an 8 by 10 automata grid.",
+				"Is always consumed if automata is activated, even if the automata is inscribed."
+			],
+			"physrep": "An a4 paper.",
+			"details": "Cheap scrolls are often used to weave and sell one-time uses of specific automata."
+		},
+		{
+			"name": "Automata canvas",
+			"cost": "5c",
+			"rule": [
+				"Can hold a 10 by 16 automata grid.",
+				"Is always consumed if automata is activated, even if the automata is inscribed."
+			],
+			"physrep": "An a3 paper.",
+			"details": "Larger than the scroll, which means it can hold more complex automata."
+		},
+		{
+			"name": "Automata wand",
+			"cost": "5c",
+			"rule": "Can hold a 4 by 8 automata grid.",
+			"physrep": "A wand.",
+			"details": "Wands are usually used to hold simple inscribed spells."
+		},
+		{
+			"name": "Automata rod",
+			"cost": "10c",
+			"rule": "Can hold an 8 by 10 automata grid.",
+			"physrep": "A rod.",
+			"details": "Rods are usually used to hold inscribed spells."
+		},
+		{
+			"name": "Automata staff",
+			"cost": "20c",
+			"rule": "Can hold a 10 by 12 automata grid.",
+			"physrep": "A staff.",
+			"details": "Staffs usually hold the more complex inscribed spells."
+		},
+		{
+			"name": "Basic Material Component",
+			"cost": "3c",
+			"rule": [
+				"Provides 100 power when used to activate an automata.",
+				"The item is consumed after use."
+			],
+			"physrep": "A handful of fine sand, a puff of smoke, a cup of water or similar material."
+		},
+		{
+			"name": "Improved Material Component",
+			"cost": "9c",
+			"rule": [
+				"Provides 300 power when used to activate an automata.",
+				"The item is consumed after use."
+			],
+			"physrep": "A small rod of iron, a wedge of dried wood, a lit candle."
+		},
+		{
+			"name": "Superior Material Component",
+			"cost": "30c",
+			"rule": [
+				"Provides 1000 power when used to activate an automata.",
+				"The item is consumed after use."
+			],
+			"physrep": "A silver coin. A rabbit's foot."
+		},
+		{
+			"name": "Exquisite Material Component",
+			"cost": "90c",
+			"rule": [
+				"Provides 3000 power when used to activate an automata.",
+				"The item is consumed after use."
+			],
+			"physrep": "A gold coin. A piece of silk."
+		},
+		{
+			"name": "Extraplanar Material Component",
+			"cost": "Unknown",
+			"rule": [
+				"This is a special item made from parts acquired from different planes. If you wish to sell it, you will have to find a specific buyer. It cannot be bought normally.",
+				"Provides 6000 power when used to activate an automata.",
+				"The item is consumed after use."
+			],
+			"physrep": "A living flame from Danu's divine realm. The essence of a murder spirit. The threads woven by a fate weaver."
+		},
+		{
+			"name": "Basic Focus Component",
+			"cost": "Variable",
+			"rule": "Provides up to 100 power when used to activate an automata. The item costs 18c for every 10 power it can supply.",
+			"physrep": "A simple wooden staff. A pewter symbol hanging from a chain. A simple but elegant dagger."
+		},
+		{
+			"name": "Improved Focus Component",
+			"cost": "Variable",
+			"rule": "Provides up to 300 power when used to activate an automata. The item costs 20c for every 10 power it can supply.",
+			"physrep": "An ornate wooden staff. A sword with a large gem in the pommel. A slightly silly but well-made pointy hat."
+		},
+		{
+			"name": "Superior Focus Component",
+			"cost": "Variable",
+			"rule": "Provides up to 1000 power when used to activate an automata. The item costs 24c for every 10 power it can supply.",
+			"physrep": "A metal rod with a deamon's head at one end. A long pipe filled with expensive tobacco. A breastplate with a gold dragon embossed on the front."
+		},
+		{
+			"name": "Exquisite Focus Component",
+			"cost": "Variable",
+			"rule": "Provides up to 3000 power when used to activate an automata. The item costs 30c for every 10 power it can supply.",
+			"physrep": "A gold and silver crown set with several large gems. A wood and metal staff with a fist-sized diamond in its top. A curved dagger made of pure gold with an ivory hilt."
+		},
+		{
+			"name": "Extraplanar Focus Component",
+			"cost": "Unknown",
+			"rule": [
+				"Provides up to 10000 power when used to activate an automata.",
+				"This is a special item made from parts acquired from different planes. If you wish to sell it, you will have to find a specific buyer. It cannot be bought normally."
+			],
+			"physrep": "A beastling's horn. A good and evil rock from the realm of Ratish. An ethereal book containing stories written by hundreds of storytelling spirits."
+		}
+	]
+}

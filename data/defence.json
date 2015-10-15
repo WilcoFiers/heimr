@@ -1,0 +1,278 @@
+{
+	"item": [
+		{
+			"name": "Light armour",
+			"market price": "200c",
+			"rule": [
+				"This items is large.",
+				"This items is created with 3 counters. When you become injured (have 0 or lower HP), remove 1 counter.",
+				"While this has counters, you have 1 additional HP when you wear this armour.",
+				"You can only equip 1 armour at a time."
+			],
+			"physrep": "A fully covering armour of leather or hides."
+		},
+		{
+			"name": "Medium armour",
+			"market price": "500c",
+			"restore price": "400c",
+			"rule": [
+				"This items is large.",
+				"This items is created with 3 counters. When you become injured (have 0 or lower HP), remove 1 counter.",
+				"While this has counters, you have 2 additional HP when you wear this armour.",
+				"You can only equip 1 armour at a time."
+			],
+			"physrep": "A fully covering armour of studded leather or ring mail."
+		},
+		{
+			"name": "Heavy/medium armour",
+			"market price": "700c",
+			"restore price": "500c",
+			"rule": [
+				"This items is large.",
+				"This items is created with 3 counters. When you become injured (have 0 or lower HP), remove 1 counter.",
+				"While this has counters, you have 2 additional HP when you wear this armour.",
+				"You can only equip 1 armour at a time.",
+				"Once per day call resist against a stumble effect."
+			],
+			"physrep": "A fully covering armour of studded leather or ring mail,  with a chain mail or scale mail vest or hauberg that protects the torso."
+		},
+		{
+			"name": "Heavy armour",
+			"market price": "1100c",
+			"restore price": "600c",
+			"rule": [
+				"This items is large.",
+				"This items is created with 3 counters. When you become injured (have 0 or lower HP), remove 1 counter.",
+				"While this has counters, you have 3 additional HP when you wear this armour.",
+				"Once per day call resist against a stumble effect.",
+				"You do not gain HP from Combat Mobility when you wear this armour.",
+				"You can only equip 1 armour at a time."
+			],
+			"physrep": "A gambeson with a chain mail or scale mail vest or hauberg protecting the torso, arms and upper legs. With plate greaves protecting the lower legs."
+		},
+		{
+			"name": "Massive/heavy armour",
+			"market price": "1600c",
+			"restore price": "700c",
+			"rule": [
+				"This items is large.",
+				"This items is created with 3 counters. When you become injured (have 0 or lower HP), remove 1 counter.",
+				"While this has counters, you have 3 additional HP when you wear this armour.",
+				"Once after every short rest you can call resist against a stumble effect.",
+				"You do not gain HP from Combat Mobility when you wear this armour.",
+				"You can only equip 1 armour at a time."
+			],
+			"physrep": "A gambeson with a chain mail or scale mail vest or hauberg protecting the torso, arms and upper legs, with a breast plate on top. With plate greaves protecting the lower legs."
+		},
+		{
+			"name": "Massive armour",
+			"market price": "2100c",
+			"restore price": "800c",
+			"rule": [
+				"This items is large.",
+				"This items is created with 3 counters. When you become injured (have 0 or lower HP), remove 1 counter.",
+				"While this has counters, you have 4 additional HP when you wear this armour.",
+				"Once after every short rest you can call resist against a stumble effect.",
+				"You do not gain HP from Combat Mobility when you wear this armour.",
+				"You can only equip 1 armour at a time.",
+				"This armour only fits the original owner. Pay the restore price to refit the item."
+			],
+			"physrep": "A fully covering plate armour, including a helmet, a gorget, pauldrons, couters, vambraces, gauntlets, a cuirass with a fauld, tassets and a culet, a mail skirt, cuisses, poleyns, greaves, and sabatons."
+		},
+		{
+			"name": "Buckler",
+			"": [
+				"Buckler",
+				"Reinforced Buckler",
+				"Shield",
+				"Reinforced Shield",
+				"Superior Shield",
+				"Great Shield",
+				"Reinforced Great Shield",
+				"Superior Great Shield"
+			]
+		},
+		{
+			"name": "Buckler",
+			"market price": "200c",
+			"restore price": "120c",
+			"toughness": "1",
+			"rule": [
+				"This item is large.",
+				"Can be worn on an arm while using a weapon.",
+				"If this shield is broken while strapped to your arm, you take HP damage when the shield is hit."
+			],
+			"physrep": "Maximum diameter 40 cm."
+		},
+		{
+			"name": "Reinforced Buckler",
+			"market price": "300c",
+			"restore price": "210c",
+			"toughness": "2",
+			"rule": [
+				"This item is large.",
+				"Can be worn on an arm while using a weapon.",
+				"If this shield is broken while strapped to your arm, you take HP damage when the shield is hit."
+			],
+			"physrep": "Maximum diameter 40 cm."
+		},
+		{
+			"name": "Shield",
+			"market price": "400c",
+			"restore price": "240c",
+			"toughness": "1",
+			"rule": "This item is large.",
+			"physrep": "Maximum diameter 90 cm."
+		},
+		{
+			"name": "Reinforced Shield",
+			"market price": "800c",
+			"restore price": "560c",
+			"toughness": "2",
+			"rule": "This item is large.",
+			"physrep": "Maximum diameter 90 cm."
+		},
+		{
+			"name": "Superior Shield",
+			"market price": "1600c",
+			"restore price": "1120c",
+			"toughness": "2",
+			"rule": [
+				"This item is large.",
+				"If you had this shield at the beginning of the day you can perform a bash skill once without paying its willpower cost this day."
+			],
+			"physrep": "Maximum diameter 90 cm."
+		},
+		{
+			"name": "Great Shield",
+			"market price": "600c",
+			"restore price": "360c",
+			"toughness": "1",
+			"rule": "This item is large.",
+			"physrep": "Maximum diameter 125 cm."
+		},
+		{
+			"name": "Reinforced Great Shield",
+			"market price": "1200c",
+			"restore price": "840c",
+			"toughness": "2",
+			"rule": "This item is large.",
+			"physrep": "Maximum diameter 125 cm."
+		},
+		{
+			"name": "Superior Great Shield",
+			"market price": "2400c",
+			"restore price": "1680c",
+			"toughness": "2",
+			"rule": [
+				"This item is large.",
+				"If you had this shield at the beginning of the day you can perform a bash skill once without paying its willpower cost this day."
+			],
+			"physrep": "Maximum diameter 125 cm."
+		}
+	],
+	"skill": [
+		{
+			"name": "Shield bash Level 1",
+			"point": "4",
+			"rule": [
+				"Use a non-buckler shield for this skill.",
+				"If you lightly tap the enemy with your shield and spend 1WP you can call Stumble."
+			],
+			"details": "The shield can be used offensively in the hands of a proficient soldier.",
+			"level": "Upgrade to Level 2 by training 6 points"
+		},
+		{
+			"name": "Shield bash Level 2",
+			"point": "10",
+			"rule": [
+				"Use a non-buckler shield for this skill.",
+				"if you lightly tap the enemy with your shield and spend 1WP you can call Fall or Stumble."
+			],
+			"details": "With sufficient force the enemy is swept off his feet.",
+			"level": "Upgrade to Level 3 by training 6 points"
+		},
+		{
+			"name": "Combat Mobility Level 1",
+			"points": 8,
+			"rule": "You have 1 additional HP.",
+			"details": "It won't stall death forever, but moving along with the blows of your enemy might give you enough time to finish him of.",
+			"level": "Upgrade to Level 2 by training 8 points"
+		},
+		{
+			"name": "Combat Mobility Level 2",
+			"points": 16,
+			"rule": "You have 2 additional HP.",
+			"details": "You have reached the pinnacle of moving out of harms way."
+		},
+		{
+			"name": "Sturdy stance level 1",
+			"points": 3,
+			"rule": "If you spend 1 WP you can call Resist against a Stumble effect.",
+			"details": "Digging your heels in the sand, you keep standing where you are.",
+			"level": "Upgrade to Level 2 by training 4 points"
+		},
+		{
+			"name": "Sturdy stance level 2",
+			"points": 7,
+			"rule": "If you spend 1 WP you can call Resist against a Stumble or fall effect.",
+			"details": "You don't fall down so easily. They will have to work for that.",
+			"level": "Upgrade to Level 3 by training 5 points"
+		},
+		{
+			"name": "Sturdy stance level 3",
+			"points": 12,
+			"rule": [
+				"If you spend 1 WP you can call Resist against a Stumble or fall effect.",
+				"You can perform this skill once without spending WP after every short rest."
+			],
+			"details": "If you fall down, something is seriously wrong."
+		},
+		{
+			"name": "Sturdy hands level 1",
+			"points": 4,
+			"rule": "If you spend 2 WP you can call Resist against a drop weapon effect.",
+			"details": "Bashing a weapon from your hands is harder than they think.",
+			"level": "Upgrade to Level 2 by training 4 points"
+		},
+		{
+			"name": "Sturdy hands level 2",
+			"points": 8,
+			"rule": "If you spend 1 WP you can call Resist against a drop weapon effect.",
+			"details": "A light grasp not a clingy one. It is all in the wrist.",
+			"level": "Upgrade to Level 3 by training 5 points"
+		},
+		{
+			"name": "Sturdy hands level 3",
+			"points": 11,
+			"rule": [
+				"If you spend 1 WP you can call Resist against a drop weapon effect.",
+				"You can perform this skill once without spending WP after every short rest."
+			],
+			"details": "Your weapon is your life. Rarely do you drop it."
+		},
+		{
+			"name": "Clear head level 1",
+			"points": 4,
+			"rule": "If you spend 1 WP you can call Resist against a fear effect.",
+			"details": "You are not distracted by fear that easily.",
+			"level": "Upgrade to Level 2 by training 4 points"
+		},
+		{
+			"name": "Clear head level 2",
+			"points": 8,
+			"rule": "If you spend 1 WP you can call Resist against a fear or daze effect.",
+			"details": "It is really hard to stun you. Even spellcasters might be surprised.",
+			"level": "Upgrade to Level 3 by training 5 points"
+		},
+		{
+			"name": "Clear head level 3",
+			"points": 11,
+			"rule": [
+				"If you spend 1 WP you can call Resist against a fear, daze or charm effect.",
+				"You can perform this skill once without spending WP after every short rest."
+			],
+			"details": "You have seen it all. Nothing distracts you from the battle at hand."
+		}
+	]
+}

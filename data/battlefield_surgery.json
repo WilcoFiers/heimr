@@ -1,0 +1,243 @@
+{
+	"skill": [
+		{
+			"name": "Stitching And Bandaging Level 1",
+			"points": 2,
+			"rule": "Clean, stitch and bandage somebody with 0 HP for 4 minutes. Pick two cards at random from your infection deck and give them to the patient. The patient is now at 1 HP (and thus will regain HP normally during his next short rest). The patient also loses 1 WP.",
+			"details": [
+				"Use bandages to bind the injury. Metal armour pieces must be removed before using this.",
+				"You know how to clean, stitch up and bind a wound. It is painful and messy and there is a large chance of infection."
+			],
+			"level": "Upgrade to Level 2 by training 2 points"
+		},
+		{
+			"name": "Stitching And Bandaging Level 2",
+			"points": 4,
+			"rule": [
+				"Clean, stitch and bandage somebody with 0 HP for 4 minutes. Pick two cards at random from your infection deck and give them to the patient. The patient is now at 1 HP (and thus will regain HP normally during his next short rest). The patient also loses 1 WP.",
+				"If you spend 1 WP while using this skill you can pick 1 card from your infection deck instead of 2."
+			],
+			"details": [
+				"Use bandages to bind the injury. Metal armour pieces must be removed before using this.",
+				"You know how to keep your tools and the wound clean. Infection is always a risk in the field, but by concentrating you know how to lower the chance considerably."
+			]
+		},
+		{
+			"name": "Nursing",
+			"points": 4,
+			"rule": [
+				"You can use this skill 4 times a day without spending willpower.",
+				"Attend to the healthcare and mobility needs of a person with an Illness or Recovering Wound condition for 1 hour and spend 1 WP. After you have done this they regain 1 WP.",
+				"You can use this skill simultaneously on up to 4 patients. You can stop and resume this skill at any time without losing the time already spend."
+			],
+			"details": "Good bedside manners and a genuine smile go a long way towards healing."
+		},
+		{
+			"name": "Battlefield surgery Level 1",
+			"requires": "Stitching And Bandaging (any level)",
+			"points": 3,
+			"rule": [
+				"With this skill you can try and heal patients that haven't slipped into unconsciousness yet.",
+				"Spend 1 WP to start using this skill.",
+				"When you start to work on a conscious patient they do not lose consciousness or die unless a complication card says differently.",
+				"Work on stabilizing the flow of blood from the patients wounds for 4 minutes. After this pick a card at random from your complication deck."
+			],
+			"details": "You know how to stop people from bleeding to death if it isn't all that bad yet but as soon as people slip into unconsciousness you don't know what to do.",
+			"level": "Upgrade to Level 2 by training 3 points"
+		},
+		{
+			"name": "Battlefield surgery Level 2",
+			"requires": "Stitching And Bandaging (any level)",
+			"points": 6,
+			"rule": [
+				"With this skill you can try and heal patients.",
+				"Spend 1 WP to start using this skill or 2 WP if the patient is already unconscious when you start working.",
+				"When you start to work on a patient they do not lose consciousness or die unless a complication card says differently.",
+				"Work on stabilizing the flow of blood from the patients wounds for 4 minutes. After this pick a card at random from your complication deck."
+			],
+			"details": "You know how to fix all sorts of battlefield related injuries. Even when people have slipped into unconsciousness you know what to do although it does take considerable strain not to panic.",
+			"level": "Upgrade to Level 3 by training 4 points"
+		},
+		{
+			"name": "Battlefield surgery Level 3",
+			"requires": "Stitching And Bandaging (any level)",
+			"points": 10,
+			"rule": [
+				"With this skill you can try and heal patients.",
+				"Spend 1 WP to start using this skill if the patient is already unconscious when you start working.",
+				"When you start to work on a patient they do not lose consciousness or die unless a complication card says differently.",
+				"Work on stabilizing the flow of blood from the patients wounds for 4 minutes. After this pick a card at random from your complication deck."
+			],
+			"details": "Your expertise knowledge and theoretic keeps your head cool while working on a patient. You only panic slightly when they are already unconscious when you arrive."
+		},
+		{
+			"name": "Experienced surgery Level 1",
+			"points": 3,
+			"rule": "You are better at performing battlefield surgery: The patient loses 1 less WP from your complication cards (but always loses at least 1).",
+			"details": "You have seen some blood and guts in your time. You know how to handle this.",
+			"level": "Upgrade to Level 2 by training 3 points"
+		},
+		{
+			"name": "Experienced surgery Level 2",
+			"points": 6,
+			"rule": "You are better at performing battlefield surgery: The patient loses 2 less WP from your complication cards (but always loses at least 1).",
+			"details": "You have seen grown man cry for their mothers and pray to their gods, but you keep pulling them trough.",
+			"level": "Upgrade to Level 3 by training 3 points"
+		},
+		{
+			"name": "Experienced surgery Level 3",
+			"points": 9,
+			"rule": "You are better at performing battlefield surgery: The patient loses 3 less WP from your complication cards (but always loses at least 1).",
+			"details": "You have lost count of the amount of lives you have saved. Your experience will save some more."
+		},
+		{
+			"name": "Surgeon assistant Level 1",
+			"requires": "Stitching And Bandaging (any level)",
+			"points": 1,
+			"rule": "You can help perform battlefield surgery (you have to be present from beginning to end, only two people can help at maximum) this has the following effect: The patient loses 1 less WP from complication cards (but always loses at least 1).",
+			"details": "You know what to hand when the healer asks for it and know where to apply pressure without anyone telling you.",
+			"level": "Upgrade to Level 2 by training 3 points"
+		},
+		{
+			"name": "Surgeon assistant Level 2",
+			"requires": "Stitching And Bandaging (any level)",
+			"points": 4,
+			"rule": "You can help perform battlefield surgery (you have to be present from beginning to end, only two people can help at maximum) this has the following effect: The patient loses 2 less WP from complication cards (but always loses at least 1).",
+			"details": "You can give the needed equipment even before the surgeon asks for it and work on some other wounds he missed on the side."
+		},
+		{
+			"name": "Helping hands",
+			"requires": "Battlefield surgery (Any level)",
+			"points": 2,
+			"rule": "You can instruct a single person to help you perform battlefield surgery (the person needs to be present from beginning to end) this has the following effect: The patient loses 1 less WP from complication cards (but always loses at least 1).",
+			"details": "You can ask any unskilled lowlife on how to hand you certain equipment and how to keep pressure on certain wounds.",
+			"level": "Upgrade to Level 2 by training 3 points"
+		},
+		{
+			"name": "Helping hands lvl 2",
+			"requires": "Battlefield surgery (Any level)",
+			"points": 5,
+			"rule": "You can instruct up to two people to help you perform battlefield surgery (the helpers need to be present from beginning to end) this has the following effect: The patient loses 1 less WP from complication cards per person helping you (but always loses at least 1).",
+			"details": "You can keep order and discipline around the surgery table and make sure nobody panics."
+		},
+		{
+			"name": "Focused surgery Level 1",
+			"points": 3,
+			"rule": "Spend 2 WP during the use of battlefield surgery or helping hand: One WP the patient loses is negated. You can use this 1 time during every use of battlefield surgery.",
+			"details": "At the expense of your own emotional well being you go beyond the call of duty to help this particular patient.",
+			"level": "Upgrade to Level 2 by training 3 points"
+		},
+		{
+			"name": "Focused surgery Level 2",
+			"points": 6,
+			"rule": "Spend 2 WP during the use of battlefield surgery or helping hand: One WP the patient loses is negated. You can use this 2 times during every use of battlefield surgery.",
+			"details": "At the expense of possibly your own sanity, you pour everything you have into this important patient.",
+			"level": "Upgrade to Level 3 by training 3 points"
+		},
+		{
+			"name": "Focused surgery Level 3",
+			"points": 9,
+			"rule": "Spend 1 WP during the use of battlefield surgery or helping hand: One WP the patient loses is negated. You can use this 2 times during every use of battlefield surgery. The second time you use this skill it costs 2 WP.",
+			"details": "THIS... ONE... SHALL... NOT... DIE!.",
+			"level": "Upgrade to Level 4 by training 3 points"
+		},
+		{
+			"name": "Focused surgery Level 4",
+			"points": 12,
+			"rule": "Spend 1 WP during the use of battlefield surgery or helping hand: One WP the patient loses is negated. You can use this 3 times during every use of battlefield surgery. The second and third time you use this skill it costs 2 WP.",
+			"details": "You have a saintlike regard for your patients and might have given your own life for them if you could."
+		},
+		{
+			"name": "Amputate level 1",
+			"points": 2,
+			"rule": [
+				"When a patient would die from a complication card, ignore the card and amputate a wounded limb instead (this only works if the patient isn't injured on the torso). Spend 4 minutes on this.",
+				"Pick another card at random from the complication deck.",
+				"The next 3 WP the patient loses during this surgery are negated.",
+				"Give the patient the amputated limb condition when he survives."
+			],
+			"details": "You crudely hack off the wounded limb, scorch the stump and pray.",
+			"level": "Upgrade to Level 2 by training 2 points"
+		},
+		{
+			"name": "Amputate level 2",
+			"points": 4,
+			"rule": [
+				"When a patient would die from a complication card, ignore the card and amputate a wounded limb instead (this only works if the patient isn't injured on the torso). Spend 4 minutes on this.",
+				"Pick another card at random from the complication deck.",
+				"The next 4 WP the patient loses during this surgery are negated.",
+				"Give the patient the amputated limb condition when he survives."
+			],
+			"details": "You know exactly where to cut to maximize the chance of survival and have some experience in burning wounds closed.",
+			"level": "Upgrade to Level 3 by training 2 points"
+		},
+		{
+			"name": "Amputate level 3",
+			"points": 6,
+			"rule": [
+				"When a patient would die from a complication card, ignore the card and amputate a wounded limb instead (this only works if the patient isn't injured on the torso). Spend 4 minutes on this.",
+				"Pick another card at random from the complication deck.",
+				"The next 5 WP the patient loses during this surgery are negated.",
+				"Give the patient the amputated limb condition when he survives."
+			],
+			"details": "You have specialized sterilized equipment specifically designed to remove wounded limbs with surgical precision and perform this operation routinely."
+		}
+	],
+	"condition": [
+		{
+			"name": "Infection",
+			"rule": [
+				"Two hours after you gain this condition you develop a fever; You are constantly weakened.",
+				"At the end of the event this condition is replaced by a recovering wound condition"
+			]
+		},
+		{
+			"name": "Recovering Wound",
+			"rule": [
+				"Indicate the wounded body part when receiving this condition. Right leg or arm, left leg or arm, or torso.",
+				"If the wound is on torso, you are dazed. Else you can't use the injured limb. You can ignore this effect for 5 minutes by spending 2 WP.",
+				"You shouldn't wear heavy or higher grade armour. The wound must remain bandaged.",
+				"If hit on the wounded body part, your HP reduces to -1 automatically.",
+				"In your next downtime period you must spend 30 Resources, or 50 for a torso wound, to lose this condition."
+			]
+		},
+		{
+			"name": "Amputated Arm",
+			"rule": [
+				"Use a counter to indicate which arm is amputated; 1: right, 2: left.",
+				"You're missing a hand and part of your arm. You can't carry or hold things that require the use of that arm. You can't use, learn or maintain skills that need two hands (use common sense or ask a GM when in doubt)",
+				"The first downtime period after you've received this condition you must spend 20 resources getting used to the amputation."
+			]
+		},
+		{
+			"name": "Amputated Leg",
+			"rule": [
+				"Use a counter to indicate which leg is amputated; 1: right, 2: left.",
+				"You can't run. Stumble effects cause you to Fall. You need a crutch or staff to stand and to walk.",
+				"The first downtime period after you've received this condition you must spend 20 resources getting used to the amputation."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Wooden Leg",
+			"market price": "40c",
+			"toughness": "1",
+			"rule": [
+				"You can only use this if you have an Amputated Leg.",
+				"You can stand and walk without using a crutch or a staff."
+			],
+			"physrep": "None. Make sure none of your actual skin is showing."
+		},
+		{
+			"name": "Replacement Hand",
+			"market price": "40c",
+			"toughness": "1",
+			"rule": [
+				"You can only use this if you have an Amputated Arm.",
+				"Use the replacement hand to hold things that don't require grip. You can use items that can be strapped to the arm such as a shield."
+			],
+			"physrep": "A fake hook for a hand or a wooden hand or something similar."
+		}
+	]
+}

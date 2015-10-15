@@ -1,0 +1,159 @@
+{
+	"race": [
+		{
+			"name": "Elf",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"In character creation, spend 14 extra points on dormant skills.",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Fae",
+			"hp": "1",
+			"wp": "6",
+			"rule": [
+				"Spend 2 WP to enter a frenzy: While uninjured, for the next 15 minutes you must stay focused on 1 activity. During this time gain 4 temporary WP",
+				"You have the Spark condition",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Human",
+			"hp": "1",
+			"wp": "8",
+			"rule": [
+				"Retraining dormant skills costs 5 resources per point",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Gnome",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"Once per month you can reduce the cost of training a skill with 7 resources",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Halfling",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"You have 6 additional resources each month.",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Slemmering",
+			"hp": "1",
+			"wp": "6",
+			"rule": [
+				"You have 5 additional resources each month.",
+				"Three times per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Ogre",
+			"hp": "2",
+			"wp": "6",
+			"rule": [
+				"Your recovering wounds heal faster. Divide their resource cost by 2",
+				"When you become Infected you can spend 1WP, if you do you lose that infection.",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Orc",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"Once per day you can perform an armed combat skill or defensive skill without paying its willpower cost.",
+				"While you are uninjured you can spend 2WP, if you do you regain 2 HP.",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Troll",
+			"hp": "1",
+			"wp": "8",
+			"rule": [
+				"If you sleep 6 uninterrupted hours in a day you regain 1 WP",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Tellurian",
+			"hp": "2",
+			"wp": "6",
+			"rule": [
+				"If you have 2 or more Tellurian companions nearby (same event) you have 7WP.",
+				"You gain the Firm Stance lvl1 skill and it costs 2 less resources to maintain",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Nymph",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"While your romantic partner is nearby (same event), you have 8WP. If he or she dies you lose 4 WP.",
+				"Three times per day you can use the rule below this rule without spending WP.",
+				"Spend 10 minutes romancing your partner in private and spend 1 WP, if you do they regain 1WP.",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Shanata",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"In character creation, spend 3pt on dormant skills",
+				"Animalistic rage: If you choose to rage you instantly gain 1 extra HP (can go above your maximum). If you don't attack anyone for 10 seconds you are weakened for the rest of the day and you fall back to your maximum HP if you are above it.",
+				"Lose 4 months downtime (Tree regeneration): Lose all conditions, all skill go dormant. After this, spend 18 points regaining conditions lost this way and retraining dormant skills. You can only do this once.",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Merfolk",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"You can not run",
+				"Once per day you can extract poison from your gills to apply to a weapon, spend 2 WP: If you hit with this weapon within the next 15 minutes, call Daze",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Lizardman",
+			"hp": "1",
+			"wp": "7",
+			"rule": [
+				"You can consciously stop blood flow to a limb. After 2 minutes the limb dies: You have -1 HP, lose 2 WP and gain an Amputated Arm or Leg condition.",
+				"When you enter downtime with an Amputation you spend 30 resources to regrow the lost limb. Lose the Amputation condition.",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Feyfolk (Explorer)",
+			"hp": "1",
+			"wp": "8",
+			"rule": [
+				"Spend 40 resources during downtime (Transform): Choose a different 'Feyfolk' Character card. You can't transform for the next 3 months",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		},
+		{
+			"name": "Feyfolk (Destroyer)",
+			"hp": "2",
+			"wp": "6",
+			"rule": [
+				"You gain the breaking strike lvl1 skill and it costs 4 less resources to maintain",
+				"Spend 40 resources during downtime (Transform): Choose a different 'Feyfolk' Character card. You can't transform for the next 3 months",
+				"Once per day, do something you enjoy for 5 min (Indulgence): Regain 1 WP"
+			]
+		}
+	]
+}
