@@ -1,0 +1,699 @@
+{
+	"item": [
+		{
+			"name": "Porridge bowl",
+			"market price": "5c",
+			"rule": [
+				"This item can hold a single alchemic porridge.",
+				"You can eat the porridge from this bowl. This will take 1 minute.",
+				"If this is the first time this specific substance is consumed by a mortal contact a GM before eating.",
+				"Any alchemic porridge kept in this bowl expires in half an hour."
+			],
+			"details": "Porridge is cooked ingredients and is meant to be eaten hot."
+		},
+		{
+			"name": "Porridge pot",
+			"market price": "5c",
+			"rule": [
+				"This item can hold up to a fifty portions of the same alchemic porridge.",
+				"Any alchemic porridge kept in this bowl expires in half an hour."
+			],
+			"details": "Porridge is cooked ingredients and is meant to be eaten hot."
+		},
+		{
+			"name": "Potion flask",
+			"market price": "5c",
+			"rule": [
+				"This item can hold a single alchemic fluid.",
+				"You can drink the fluid from this flask.",
+				"If this is the first time this specific substance is consumed by a mortal contact a GM before drinking.",
+				"Any alchemic fluid kept in this flask expires in a single day."
+			],
+			"details": "The standard form most alchemic products take, needs to be consumed fresh."
+		},
+		{
+			"name": "Ingredient bottle",
+			"market price": "5c",
+			"rule": [
+				"This item can hold up to a fifty portions of the same alchemic fluid.",
+				"Any alchemic fluid kept in this bottle expires in a single day."
+			],
+			"details": "The standard form most alchemic products take, needs to be consumed fresh."
+		},
+		{
+			"name": "Powder tube",
+			"market price": "5c",
+			"rule": [
+				"This item can hold a single portion of an alchemic powder.",
+				"You can snort the powder from this tube.",
+				"If this is the first time this specific substance is consumed by a mortal contact a GM before snorting.",
+				"Any alchemic powder kept in this tube expires in a single week."
+			],
+			"details": "Dry alchemic substances keep fresh longer than potions but should still be consumed before losing their potency."
+		},
+		{
+			"name": "Powder box",
+			"market price": "5c",
+			"rule": [
+				"This item can hold up to a fifty portions of the same alchemic powder.",
+				"Any alchemic powder kept in this tube expires in a single week."
+			],
+			"details": "Dry alchemic substances keep fresh longer than potions but should still be consumed before losing their potency."
+		},
+		{
+			"name": "Mortar and pestle equipment",
+			"market price": "20c",
+			"rule": [
+				"With this item you can change some ingredients into a powder ingredient.",
+				"You need 1 empty powder tube or a powder box to catch the product in.",
+				"Note a \"powdered\" version of the old ingredient into your stock booklet.",
+				"Each change takes 5 minutes."
+			],
+			"details": "A set of wooden and stone mortars and pestles used to powder ingredients into little bits."
+		},
+		{
+			"name": "Pressing equipment",
+			"market price": "20c",
+			"rule": [
+				"With this item you can change some ingredients into a fluid ingredient.",
+				"You need 1 empty potion flask or an ingredient bottle to catch the product in.",
+				"Note an \"oil\" version of the old ingredient into your stock booklet.",
+				"Each change takes 5 minutes."
+			],
+			"details": "There are a lot of ingredients that hold some juice or oils that can be extracted by force."
+		},
+		{
+			"name": "Filter equipment",
+			"market price": "20c",
+			"rule": [
+				"With this item you can change some powder or fluid ingredients into two different ingredients.",
+				"If you want to gather the feed afterwards you need 1 empty powder tube to catch the product in.",
+				"Note both a \"filter residue\" and a \"filtered\" version of the old ingredient into your stock booklet.",
+				"Each change takes 5 minutes."
+			],
+			"details": "Separating larger grained pieces from powders or fluids can be done with this set of sifters."
+		},
+		{
+			"name": "Plant knife set",
+			"market price": "20c",
+			"rule": "Can be used with the plant anatomy skill.",
+			"details": "A set of small knifes that can be used to cut specific parts of plants. Needs extensive training on plant parts to properly use."
+		},
+		{
+			"name": "Desk Cauldron",
+			"market price": "30c",
+			"rule": "Can be used with the alchemic cooking skill.",
+			"details": "A small cauldron that fits on a desk. Needs proper training to use in alchemic processes."
+		},
+		{
+			"name": "Desk Distillery",
+			"market price": "150c",
+			"rule": "Can be used with the distilling skill.",
+			"details": "A standard distillery that fits on a desk. Needs extensive training to be used."
+		},
+		{
+			"name": "\"Plant families of the north\" by Parison Ollradim of the scribe caste",
+			"market price": "300c",
+			"rule": "OC updated book with all plant families in Asgard. Get the physrep from the GM's.",
+			"details": "Contains information on all plant families found in the unified kingdom of Asgard. A new and updated version is released by the scribe caste about every 20 years."
+		},
+		{
+			"name": "Perdota",
+			"market price": "10c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Perdota reacts with about 90% of all known analgesic substances."
+		},
+		{
+			"name": "Fymota",
+			"market price": "9c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Fymota reacts with about 95% of all known hallucinogenic substances."
+		},
+		{
+			"name": "Nurstata",
+			"market price": "12c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Nurstata reacts with about 95% of all known healing substances."
+		},
+		{
+			"name": "Hitsata",
+			"market price": "10c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Hitsata reacts with about 92% of all known uppers."
+		},
+		{
+			"name": "Normta",
+			"market price": "8c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Normta reacts with about 91% of all known beta-blocking substances."
+		},
+		{
+			"name": "Gigata",
+			"market price": "12c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Gigata reacts with about 94% of all known strength enhancing substances."
+		},
+		{
+			"name": "Primota",
+			"market price": "12c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Primota reacts with about 89% of all known substances that ripple the primordial flow."
+		},
+		{
+			"name": "Clencita",
+			"market price": "11c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Clencita reacts with about 85% of all known substances that calm the primordial flow."
+		},
+		{
+			"name": "Berserta",
+			"market price": "12c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Berserta reacts with about 89% of all known adrenaline heightening substances."
+		},
+		{
+			"name": "Savita",
+			"market price": "9c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Savita reacts with about 92% of all known anti-toxins."
+		},
+		{
+			"name": "Darkta",
+			"market price": "8c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Darkta reacts with about 94% of all known blinding substances."
+		},
+		{
+			"name": "Mordta",
+			"market price": "13c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Mordta reacts with about 94% of all known deadly substances."
+		},
+		{
+			"name": "Zicklyta",
+			"market price": "14c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zicklyta reacts with about 91% of all known infectiousness substances."
+		},
+		{
+			"name": "Smalta",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Smalta reacts with about 87% of all known weakening substances."
+		},
+		{
+			"name": "Trumbleta",
+			"market price": "10c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Trumbleta reacts with about 92% of all known fear inducing substances."
+		},
+		{
+			"name": "Zazarta",
+			"market price": "13c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zazarta reacts with about 85% of all known soporific substances."
+		},
+		{
+			"name": "Transita",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Transita reacts with about 91% of all known addictive substances."
+		},
+		{
+			"name": "Melota",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Melota reacts with about 92% of all known dazing substances."
+		},
+		{
+			"name": "Vibrota",
+			"market price": "8c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Vibrota reacts with about 92% of all known substances that induce tremors."
+		},
+		{
+			"name": "Domyta",
+			"market price": "8c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Domyta reacts with about 87% of all known substances that suppress intelligence."
+		},
+		{
+			"name": "Perdolim",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Perdolim reacts with about 73% of all known analgesic substances."
+		},
+		{
+			"name": "Fymolim",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Fymolim reacts with about 73% of all known hallucinogenic substances."
+		},
+		{
+			"name": "Nurstalim",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Nurstalim reacts with about 70% of all known healing substances."
+		},
+		{
+			"name": "Hitsalim",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Hitsalim reacts with about 78% of all known uppers."
+		},
+		{
+			"name": "Normlim",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Normlim reacts with about 79% of all known beta-blocking substances."
+		},
+		{
+			"name": "Gigalim",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Gigalim reacts with about 78% of all known strength enhancing substances."
+		},
+		{
+			"name": "Primolim",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Primolim reacts with about 74% of all known substances that ripple the primordial flow."
+		},
+		{
+			"name": "Clencilim",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Clencilim reacts with about 71% of all known substances that calm the primordial flow."
+		},
+		{
+			"name": "Berserlim",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Berserlim reacts with about 77% of all known adrenaline heightening substances."
+		},
+		{
+			"name": "Savilim",
+			"market price": "4c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Savilim reacts with about 78% of all known anti-toxins."
+		},
+		{
+			"name": "Darklim",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Darklim reacts with about 72% of all known blinding substances."
+		},
+		{
+			"name": "Mordlim",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Mordlim reacts with about 79% of all known deadly substances."
+		},
+		{
+			"name": "Zicklylim",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zicklylim reacts with about 70% of all known infectiousness substances."
+		},
+		{
+			"name": "Smallim",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Smallim reacts with about 73% of all known weakening substances."
+		},
+		{
+			"name": "Trumblelim",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Trumblelim reacts with about 71% of all known fear inducing substances."
+		},
+		{
+			"name": "Zazarlim",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zazarlim reacts with about 79% of all known soporific substances."
+		},
+		{
+			"name": "Transilim",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Transilim reacts with about 72% of all known addictive substances."
+		},
+		{
+			"name": "Melolim",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Melolim reacts with about 75% of all known dazing substances."
+		},
+		{
+			"name": "Vibrolim",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Vibrolim reacts with about 71% of all known substances that induce tremors."
+		},
+		{
+			"name": "Domylim",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Domylim reacts with about 71% of all known substances that suppress intelligence."
+		},
+		{
+			"name": "Perdorum",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Perdorum reacts with about 54% of all known analgesic substances."
+		},
+		{
+			"name": "Fymorum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Fymorum reacts with about 52% of all known hallucinogenic substances."
+		},
+		{
+			"name": "Nurstarum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Nurstarum reacts with about 49% of all known healing substances."
+		},
+		{
+			"name": "Hitsarum",
+			"market price": "2c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Hitsarum reacts with about 49% of all known uppers."
+		},
+		{
+			"name": "Normrum",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Normrum reacts with about 55% of all known beta-blocking substances."
+		},
+		{
+			"name": "Gigarum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Gigarum reacts with about 45% of all known strength enhancing substances."
+		},
+		{
+			"name": "Primorum",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Primorum reacts with about 46% of all known substances that ripple the primordial flow."
+		},
+		{
+			"name": "Clencirum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Clencirum reacts with about 53% of all known substances that calm the primordial flow."
+		},
+		{
+			"name": "Berserrum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Berserrum reacts with about 50% of all known adrenaline heightening substances."
+		},
+		{
+			"name": "Savirum",
+			"market price": "2c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Savirum reacts with about 54% of all known anti-toxins."
+		},
+		{
+			"name": "Darkrum",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Darkrum reacts with about 54% of all known blinding substances."
+		},
+		{
+			"name": "Mordrum",
+			"market price": "2c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Mordrum reacts with about 55% of all known deadly substances."
+		},
+		{
+			"name": "Zicklyrum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zicklyrum reacts with about 48% of all known infectiousness substances."
+		},
+		{
+			"name": "Smalrum",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Smalrum reacts with about 54% of all known weakening substances."
+		},
+		{
+			"name": "Trumblerum",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Trumblerum reacts with about 53% of all known fear inducing substances."
+		},
+		{
+			"name": "Zazarrum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zazarrum reacts with about 55% of all known soporific substances."
+		},
+		{
+			"name": "Transirum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Transirum reacts with about 51% of all known addictive substances."
+		},
+		{
+			"name": "Melorum",
+			"market price": "1c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Melorum reacts with about 52% of all known dazing substances."
+		},
+		{
+			"name": "Vibrorum",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Vibrorum reacts with about 55% of all known substances that induce tremors."
+		},
+		{
+			"name": "Domyrum",
+			"market price": "2c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Domyrum reacts with about 54% of all known substances that suppress intelligence."
+		},
+		{
+			"name": "Perdosil",
+			"market price": "4c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Perdosil is used to detect analgesic catalysts with a 91% accuracy."
+		},
+		{
+			"name": "Fymosil",
+			"market price": "4c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Fymosil is used to detect hallucinogenic catalysts with a 95% accuracy."
+		},
+		{
+			"name": "Nurstasil",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Nurstasil is used to detect catalysts for substances that promote healing with a 98% accuracy."
+		},
+		{
+			"name": "Hitsasil",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Hitsasil is used to detect catalysts for uppers with a 97% accuracy."
+		},
+		{
+			"name": "Normsil",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Normsil is used to detect catalysts for beta-blocking substances with a 98% accuracy."
+		},
+		{
+			"name": "Gigasil",
+			"market price": "4c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Gigasil is used to detect catalysts for strength enhancing substances with a 90% accuracy."
+		},
+		{
+			"name": "Primosil",
+			"market price": "6c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Primosil is used to detect catalysts for substances that ripple the primordial flow with a 95% accuracy."
+		},
+		{
+			"name": "Clencisil",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Clencisil is used to detect catalysts for substances that calm the primordial flow with a 95% accuracy."
+		},
+		{
+			"name": "Bersersil",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Bersersil is used to detect catalysts for adrenaline with a 95% accuracy."
+		},
+		{
+			"name": "Savisil",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Savisil is used to detect catalysts for anti-toxins with a 91% accuracy."
+		},
+		{
+			"name": "Darksil",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Darksil is used to detect catalysts for blinding substances with a 91% accuracy."
+		},
+		{
+			"name": "Mordsil",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Mordsil is used to detect catalysts for deadly substances with a 98% accuracy."
+		},
+		{
+			"name": "Zicklysil",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zicklysil is used to detect catalysts for infectiousness substances with a 90% accuracy."
+		},
+		{
+			"name": "Smalsil",
+			"market price": "4c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Smalsil is used to detect catalysts for weakening substances with a 91% accuracy."
+		},
+		{
+			"name": "Trumblesil",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Trumblesil is used to detect catalysts for fear inducing substances with a 99% accuracy."
+		},
+		{
+			"name": "Zazarsil",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Zazarsil is used to detect catalysts for soporific substances with a 92% accuracy."
+		},
+		{
+			"name": "Transisil",
+			"market price": "5c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Transisil is used to detect catalysts for addictive substances with a 94% accuracy."
+		},
+		{
+			"name": "Melosil",
+			"market price": "7c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Melosil is used to detect catalysts for dazing substances with a 91% accuracy."
+		},
+		{
+			"name": "Virbrosil",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Virbrosil is used to detect catalysts for substances that induce tremors with a 97% accuracy."
+		},
+		{
+			"name": "Domysil",
+			"market price": "3c",
+			"rule": "If you mix this with an ingredient and study it after 10 minutes contact a GM. You can use up to 5 testing substances parallel. Both this item and the ingredient are lost in the process.",
+			"details": "Domysil is used to detect catalysts for substances that suppress intelligence with a 95% accuracy."
+		}
+	],
+	"skill": [
+		{
+			"name": "Plant anatomy",
+			"requires": "You need a Plant knife set for this skill to work.",
+			"points": 4,
+			"rule": [
+				"You can change a plant ingredient into a roots, stem and flower ingredient.",
+				"You can change a stem ingredient into a leaves and internodes ingredient.",
+				"You can change a flower ingredient into a petals, ovary and stamen ingredient.",
+				"Note the new ingredients in your stock booklet.",
+				"Each change takes 1 minute."
+			],
+			"details": "You know what parts of the plant are what."
+		},
+		{
+			"name": "Alchemic cooking",
+			"requires": "You need a cauldron for this skill to work.",
+			"points": 4,
+			"rule": [
+				"With a cauldron you can change some ingredients into cooked versions.",
+				"If you cooked a solid you now have a porridge and need 1 empty Porridge bowl or a Porridge pot to catch the product in.",
+				"Note a \"cooked\" version of the old ingredient into your stock booklet.",
+				"Each change takes 5 minutes."
+			],
+			"details": "You know how to keep temperate even and how to boil gasses away from certain ingredient."
+		},
+		{
+			"name": "Distilling",
+			"requires": "Alchemic cooking skill. You also need a distillery for this skill to work.",
+			"points": 4,
+			"rule": [
+				"With a distillery you can change some ingredients into two different ingredients.",
+				"You need 2 empty potion flasks or 2 ingredient bottles to catch the product in.",
+				"Note both a \"still residue\" and a \"distilled\" version of the old ingredient into your stock booklet.",
+				"Each change takes 5 minutes."
+			],
+			"details": "When you boil gasses away from certain ingredient you know how to catch them and turn them back into fluids by cooling."
+		},
+		{
+			"name": "Herbology",
+			"requires": "Plant anatomy",
+			"points": 4,
+			"rule": [
+				"If you study a plant for 10 minutes you can say what family it is.",
+				"You start the event with some random knowledge about plants that could(!) be in this area.",
+				"You can spend resources in downtime to research the plants in an area from books. Each resources gives you a chance to learn some random fact about a plant from that area."
+			],
+			"details": "You know a lot about different plants or you have access to places where you can find out things about plants."
+		},
+		{
+			"name": "Bushcraft",
+			"points": 2,
+			"rule": [
+				"You can ingest a plant part in small portions in a relative safe way, after half an hour contact a GM and tell them what plant part you ingested with this skill.",
+				"You can wear 4 plant parts on various parts on your skin in a relative safe way, after half an hour contact a GM and tell them what plant part you are wearing."
+			],
+			"details": "You know how to carefully dose the ingestion to try and gets hints of the possible effects the plant part might have on you."
+		},
+		{
+			"name": "Improvised alchemy",
+			"points": 4,
+			"rule": [
+				"During any alchemic change you can spend 1 WP. If you do this, you can choose to remove 1 effect from the resulting ingredient.",
+				"If you do this note the resulting ingredient in your stock booklet separately and also note which effect is missing."
+			],
+			"details": "You use some rare undocumented ingredients or hard to reproduce methods during the alchemic techniques. With enough concentration, it seems to work."
+		},
+		{
+			"name": "Systematic testing lvl 1",
+			"points": 3,
+			"rule": "You can use up to 15 testing substances parallel, but it will take 15 minutes instead of 10.",
+			"details": "You probably have been travelling and testing the local plants for some time. You have devices a system of fluid efficiency.",
+			"level": "Upgrade to Level 2 by training 3 points"
+		},
+		{
+			"name": "Systematic testing lvl 2",
+			"points": 6,
+			"rule": [
+				"You can use up to 15 testing substances parallel, but it will take 15 minutes instead of 10.",
+				"You can use up to 40 testing substances parallel, but it will take 20 minutes instead of 10."
+			],
+			"details": "Your skill in testing substances in highly professional. You probably tested substances for a living at an alchemy lab at some point in your live."
+		}
+	],
+	"condition": [
+		{
+			"name": "Toxin-resistance",
+			"points": 3,
+			"rule": [
+				"Your toxin levels are allowed to be 1 higher before you have to contact a GM.",
+				"At first light of each day you lose one additional random toxin level.",
+				"You have a 10% chance of surviving consuming otherwise deadly substances.",
+				"You can have this condition more than once.",
+				"This condition can be trained as if it was a skill."
+			],
+			"details": "Either you are born with a natural resistance against toxic substances or you have build up an immunity over the years."
+		}
+	]
+}
