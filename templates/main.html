@@ -3,14 +3,14 @@
   <div class="body">
     Choose a domain:
 
-    <ul class="list-group">
+    <div class="list-group">
       {{#each domains}}
-        <li class="list-group-item">
-          <a href="#{{@key}}" class="domain-select" data-name="{{@key}}">
+        <a href="#{{@key}}" class="domain-select list-group-item list-group-item-default" data-name="{{@key}}">
             {{this}}
           </a>
-        </li>
+        </a>
       {{/each}}
-    </ul>
+    </div>
   </div>
 </div>
+
