@@ -1,1 +1,8 @@
+<a href="#" class="back">Back to {{domain}}</a>
+
 <h1>{{name}}</h1>
+<table>
+{{#each this}}
+	<tr> <th>{{@key}}</th> <td>{{this}}</td> </tr>
+{{/each}}
+</table>
