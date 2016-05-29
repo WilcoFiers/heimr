@@ -1,12 +1,16 @@
 ﻿<ul class="nav nav-tabs">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Condition</a></li>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Skill</a></li>
+  <li><a href="/">Home</a></li>
+
+  {{#each types}}
+    <li {{#compare this ../current}} class="active"{{/compare}}>
+      <a href="#" class="detail-type" data-type="{{this}}">{{this}}s</a>
+    </li>
+  {{/each}}
 </ul>
 
 <div class="btn-group-vertical">
   {{#each list}}
-    <button type="button" class="btn btn-default">{{this.name}}</button>
+    <a href="#" class="btn btn-default select-detail"
+    data-index="{{@index}}">{{this.name}}</a>
   {{/each}}
 </div>
