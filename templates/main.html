@@ -1,0 +1,16 @@
+<div class="entry">
+  <h1>Heimr Character creation</h1>
+  <div class="body">
+    Choose a domain:
+
+    <ul class="list-group">
+      {{#each domains}}
+        <li class="list-group-item">
+          <a href="#" class="domain-select" data-name="{{@key}}">
+            {{this}}
+          </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
