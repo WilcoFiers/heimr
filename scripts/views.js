@@ -65,10 +65,17 @@ function convertName(name) {
 	};
 
 	views.detail = function (domain, type, detail) {
-		var data = Object.assign({
+		var data = {
 			domain: convertName(domain),
-			type: type,
-		}, detail);
+			type: type
+		};
+
+		Object.keys(detail)
+		.forEach(function (key) {
+			var newKey = key.replace(/\s+/g, '_').toLowerCase();
+			console.log(newKey);
+			data[newKey] = detail[key];
+		});
 
 		var html = templates.detail(data);
 		$('#main').html(html);

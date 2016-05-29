@@ -1,8 +1,20 @@
 <a href="#" class="back">Back to {{domain}}</a>
 
-<h1>{{name}}</h1>
-<table>
+<div class="panel panel-warning text">
+    <div class="panel-heading">
+        <h1>{{name}}</h1>
+        {{#if market_price }}
+        	<p class="costs">Market price: {{ market_price }}</p>
+        {{/if}}
+        </div>
+        <div class="panel-body">
+        	{{#each this.rule}}
+        		{{this}}<br />
+        	{{/each}}
+        </div>
+    </div>
+</div>
+
 {{#each this}}
-	<tr> <th>{{@key}}</th> <td>{{this}}</td> </tr>
+	{{@key}},
 {{/each}}
-</table>
