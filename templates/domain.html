@@ -1,9 +1,12 @@
-<h1>{{name}}</h1>
+﻿<ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Condition</a></li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Skill</a></li>
+</ul>
 
-<a href="">Skills</a>
-<a href="">Conditions</a>
-<a href="">itemss</a>
-
-{{#each list}}
-	<a href="">{{this.name}}</a>
-{{/each}}
+<div class="btn-group-vertical">
+  {{#each list}}
+    <button type="button" class="btn btn-default">{{this.name}}</button>
+  {{/each}}
+</div>
