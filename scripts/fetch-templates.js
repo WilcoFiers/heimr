@@ -7,7 +7,9 @@ if (window.heimr === undefined) {
 	heimr.templates = {};
 
 	var templates = {
-		main: 'templates/main.html'
+		main: 'templates/main.html',
+		domain: 'templates/domain.html',
+		detail: 'templates/detail.html'
 	};
 	var ready = 0;
 	Object.keys(templates).forEach(function (name) {
